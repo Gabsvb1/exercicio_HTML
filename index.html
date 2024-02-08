@@ -8,26 +8,28 @@ lang="pt-br" indica que estamos com uma pagina web em idioma português brasilei
     <meta charset="UTF-8"> <!-- Tag meta passando o tipo de configuração de linguagem este documento trata para não dar problemas com acentos-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Meta tag para realizar um ajuste inicial para ajustar o site em celulares-->
     <title>Dev Gabriella</title><!-- título da aba do navegador-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- é dentro da tag body que ficam todo conteúdo do site-->
     <div><!-- div servem para agrupar trechos de código -->
         <!-- tag ul - lista não ordenada que será nosso menu-->
-        <ul>
+        <ul class ="menu">
             <li><a href="./index.html">Home</a></li> <!--tag li é um item da lista-->
             <li><a href="contato.html">Fale Conosco</a></li>
         </ul>
     </div>
-    <div>
+    <div class="container">
+    <div class = "center" >   
         <h1>Gabriella Vieira</h1><!--título principal da página-->
-        <h2>Sobre mim</h2><!--subtítulo da página-->
-        <p><!-- paragrafo de texto-->
+        <h2 class = "p-30">Sobre mim</h2><!--subtítulo da página-->
+        <p class = "p-30"><!-- paragrafo de texto-->
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             <br /><!-- br é a tag que vai aplicar quebras de linha dentro de paragrafos-->
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
         </p>
-        <p>
+        <p class = "p-30">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Id venenatis a condimentum vitae sapien pellentesque. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Vitae suscipit tellus mauris a. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Dolor morbi non arcu risus quis. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Arcu non sodales neque sodales. Urna nunc id cursus metus aliquam eleifend mi in nulla. Senectus et netus et malesuada. In fermentum et sollicitudin ac.
 
         </p>
@@ -37,11 +39,12 @@ lang="pt-br" indica que estamos com uma pagina web em idioma português brasilei
         </p>
         <hr /><!--linha horizontal para dividor visualmente conteúdos do texto -->
     </div>
+    </div>
     <div>
-        <h2>Tecnologias que conheço</h2>
+        <h2 class = "tec">Tecnologias que conheço</h2>
         <!-- tag a é para escrita de ancoras/ links -->
         <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">
-            <img src="download.png" alt="Logo HTML" title="HTML">
+            <img class="br-50 wh-500" src="download.png" alt="Logo HTML" title="HTML">
             <!-- tag img é uma tag para inserir imagens src é o atributo da tag img que permite indicar qual o arquivo da imagem, pode ser imagem local ou link da web-->
             <!-- atributo alt é para tornar a imagem mais inclusiva e permitir que o navegador adaptado consiga ler a imagem uma descrição da imagem-->
             <!-- atributo title vai permitir colocar um título ao elemento, ao passar o mouse sobre o elemento o title vai ser exibido-->
@@ -52,7 +55,7 @@ lang="pt-br" indica que estamos com uma pagina web em idioma português brasilei
         <hr />
     </div>
     <div>
-        <h2>Top 5 soft skills</h2>
+        <h2 class="tec">Top 5 soft skills</h2>
 
         <ol>
             <li>Comunicação</li>
